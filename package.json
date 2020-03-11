@@ -5,13 +5,13 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/server.ts",
-    "prod": "node src/server.ts",
+    "prod": "tsc && node src/server.ts",
     "build": ""
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
     "@types/dotenv": "^8.2.0",
-    "@types/express": "^4.17.2",
+    "@types/express": "^4.17.3",
     "@types/mongoose": "^5.7.3",
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
