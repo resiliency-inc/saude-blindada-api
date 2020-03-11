@@ -25,7 +25,7 @@ class App {
 
     private database (): void {
         // mongodb+srv://admin:hiBnZths5sAjOBkc@cluster0-mtbmv.mongodb.net/test?retryWrites=true&w=majority
-        mongoose.connect(process.env.MONGO_URL, {
+        mongoose.connect(process.env.MONGO_URL!, {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
